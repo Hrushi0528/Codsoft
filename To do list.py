@@ -41,10 +41,16 @@ def track_tasks(task,action):
     Tracking.append([task,{action:str(time)+" "+str(day)}])
     
 def add_task():
+    def add_task():
     new_task=input('Enter your task to add:')
-    to_do_list.append(new_task)
-    print(ca.Fore.GREEN+'Task Successfully added to your list'+ca.Fore.WHITE)
-    track_tasks(new_task,'Added')
+    if new_task in to_do_list:
+        print('The Task Already exist in your list:')
+    elif new_task=='':
+        print("Enter a task.It can't be empty")
+    else:
+        to_do_list.append(new_task)
+        print(ca.Fore.GREEN+'Task Successfully added to your list'+ca.Fore.WHITE)
+        track_tasks(new_task,'Added')
     Continue()
     
 def delete_task():
