@@ -52,7 +52,9 @@ def add_task():
         print(ca.Fore.GREEN+'Task Successfully added to your list'+ca.Fore.WHITE)
         track_tasks(new_task,'Added')
     Continue()
-    
+  
+# need to add code for checking whether the task is present in list or not for deleting of a task.
+ 
 def delete_task():
     for index in range(len(to_do_list)):
         print(index+1,str('.'),to_do_list[index],sep='')
