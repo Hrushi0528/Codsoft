@@ -52,7 +52,7 @@ def add_task():
         track_tasks(new_task,'Added')
     Continue()
   
-# need to add code for checking whether the task is present in list or not for deleting of a task.
+
  
 def delete_task():
     for index in range(len(to_do_list)):
