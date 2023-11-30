@@ -3,7 +3,7 @@
 This repository contain Python code for the Tasks given by the codsoft team in the process of Internship.
 
 <b>1.To-do-list.py</b>
-<br>
+&emsp;&emsp;&emsp;<b>To execute this program correctly file with to_do_list.txt should exist.</b><br>
 &emsp;&emsp;&emsp;It is command line interface.Mainly contains of
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<u><b>i.Creating a new list:</b></u>
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;When a list is empty we can create a new list with number of tasks.This Option is only available when the list is empty.By this Option we create a new to-do-list.This action will be tracked.
