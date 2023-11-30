@@ -7,7 +7,7 @@ def create():
         total_task=int(input("Enter total number of task:"))
         for i in range(total_task):
             task=str(input(ca.Fore.MAGENTA+'Enter {} task:'.format(i+1)+ca.Fore.GREEN))
-            to_do_list.append(task)
+            to_do_list.append(task.capitalize())
         print(ca.Fore.RED+'To-Do-List Created Successfully'+ca.Fore.WHITE)
         track_tasks('New List','Created')
         Continue()
@@ -43,12 +43,11 @@ def track_tasks(task,action):
 def add_task():
     def add_task():
     new_task=input('Enter your task to add:')
-    if new_task in to_do_list:
+    if new_task.capitalize() in to_do_list or new_task=='':
         print('The Task Already exist in your list:')
-    elif new_task=='':
-        print("Enter a task.It can't be empty")
+        add_task()
     else:
-        to_do_list.append(new_task)
+        to_do_list.append(new_task.capitalize())
         print(ca.Fore.GREEN+'Task Successfully added to your list'+ca.Fore.WHITE)
         track_tasks(new_task,'Added')
     Continue()
@@ -59,12 +58,15 @@ def delete_task():
     for index in range(len(to_do_list)):
         print(index+1,str('.'),to_do_list[index],sep='')
     position=int(input("Enter the position of task you wanted to delete"+ca.Fore.GREEN))
-    reason=input('Why are you deleting this task (Completed or Deleted )'+ca.Fore.GREEN)
-    track_tasks(to_do_list[position-1],reason)
-    print('Task has been removed successfully from your list'+ca.Fore.WHITE)
-    to_do_list.pop(position-1)
-    Continue()
-    
+    if position in range(len(to_do_list)):
+        reason=input('Why are you deleting this task (Completed or Deleted )'+ca.Fore.GREEN)
+        track_tasks(to_do_list[position-1],reason)
+        print('Task has been removed successfully from your list'+ca.Fore.WHITE)
+        to_do_list.pop(position-1)
+        Continue()
+    else:
+        print("Invalid Position entered.Try again")
+        delete_task()
 def save():
     with open('to-do-list.txt','wb') as f:
         pk.dump([to_do_list,Tracking],f)
