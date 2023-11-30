@@ -20,7 +20,7 @@ This repository contain Python code for the Tasks given by the codsoft team in t
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Now-a-days history of any documents and resource is very useful.so this option enable user to check the option applied on the last.It consist of action and date on which the corresponding action is applied.
 
-            <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;vi.Save:
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;v.Tracking of the list:    
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; This option will save the option and actions applied on the list.It only saves when you perform this action only other no changes were made.
 
