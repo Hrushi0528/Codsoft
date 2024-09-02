@@ -54,10 +54,59 @@ In this project 1100x400 dimensions interface is cretaed.In this interface there
 <br><br>&emsp;&emsp;&emsp;&emsp;<b>Demerits:</b>
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;i.Can't Select the generated password.
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ii.Below average in generating long passwords.
+<br><hr><br>
+<b>ScreenShots:
+<br>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1.To-do-list <br><br>
+![image](https://github.com/user-attachments/assets/62230acc-91dc-4b5a-a261-ffe83f0fbea1)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;a.Overview of To-do-list<br><br>
+![image](https://github.com/user-attachments/assets/51835182-3e01-4d6c-bdb8-1c18bc351707)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;b.Creating a new List<br><br>
+![image](https://github.com/user-attachments/assets/f46d8fe8-0f45-4614-8343-e509b8fa0c6c)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;c.Viewing the to-do-list<br><br>
+![image](https://github.com/user-attachments/assets/ec19640e-e76b-4aef-8462-3431f4ab6cab)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;d.Adding a task in to-do-list<br><br>
+![image](https://github.com/user-attachments/assets/0018a4c6-1163-4565-a87c-378cb4942262)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;e.After Adding a task in to-do-list<br><br>
+![image](https://github.com/user-attachments/assets/309aec8b-b426-4188-9f16-73f891c8d86b)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;f.Deleting a task in to-do-list<br><br>
+![image](https://github.com/user-attachments/assets/d3c009ce-d9e8-4344-9862-663295d54c8d)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;g.After Deleting a task in to-do-list<br><br>
+![image](https://github.com/user-attachments/assets/c59af187-b867-464f-b37b-25bb60415a4d)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;h.Tracking the actions performed on to-do-list<br><br>
+![image](https://github.com/user-attachments/assets/ab7f26da-8d7b-4cf1-81e2-989f6f770e96)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;i.Saving the to-do-list<br><br>
+![image](https://github.com/user-attachments/assets/8f69eebc-0494-49d3-86e3-331afd3780e9)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;j.Exiting the to-do-list<br><br>
 
-<br><br><br>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.Rock-Paper-Scissor<br><br>
+![image](https://github.com/user-attachments/assets/46fcee0c-77aa-473f-b306-04b6750088af)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;a.Overview of the interface<br><br>
+![image](https://github.com/user-attachments/assets/50c3ab10-f3d6-4554-8600-c58795801049)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;b.Player wins a point<br><br>
+![image](https://github.com/user-attachments/assets/6fb00b29-81a4-4fee-beb5-71da30272a30)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;c.Tie Break<br><br>
+![image](https://github.com/user-attachments/assets/8c9ef962-a35f-4790-87d7-f21dd40f5225)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;d.Player Lose a point as well as chance<br><br>
+![image](https://github.com/user-attachments/assets/59459095-6e72-4a2e-b1d3-c8a3f1f25d77)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;e.All chances runned out<br><br>
+![image](https://github.com/user-attachments/assets/4b956a51-c3b7-4766-9ad6-6b26ed1727ec)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;f.Want to play again<br><br>
+![image](https://github.com/user-attachments/assets/68695389-afb1-4921-970c-a6b57412b188)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;g.After selecting yes the game restarts<br><br>
+
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;3.Random Password generator<br><br>
+![image](https://github.com/user-attachments/assets/203376e5-aa00-471d-aa1d-01014437b064)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;a.Overview of Random Password generator<br><br>
+![image](https://github.com/user-attachments/assets/bd07579c-2e35-4bc0-a22a-bca4cc857896)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;b.After generating password<br><br>
+![image](https://github.com/user-attachments/assets/de919391-8be7-4e11-81b6-c1aecd8869f3)
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;c.After refreshing the generating password<br><br>
+
+<hr>
 Work done by:<br>
 <b>Hrushikesh Dodla
+<br>email:dodlahrushikesh5683@gmail.com
 
 
 
