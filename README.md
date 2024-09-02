@@ -1,6 +1,9 @@
-# CODSOFT
+# CODSOFT Internship
 
-This repository contain Python code for the Tasks given by the codsoft team in the process of Internship.
+This repository contain Python code for the Tasks given by the codsoft team in the process of Internship.As part of my internship i implemented the following code as per my Knowledge.This repo contains Three projects namely:
+<br>&emsp;&emsp;&emsp;<b>1.To-do-list
+<br>&emsp;&emsp;&emsp;2.Rock-Paper-Scissor
+<br>&emsp;&emsp;&emsp;3.Random Password Generator</b><br><br>
 
 <b>1.To-do-list.py</b>
 &emsp;&emsp;&emsp;<b>To execute this program correctly file with to_do_list.txt should exist.</b><br>
@@ -37,5 +40,28 @@ For each loss by the user number of chances will be decremented by 1 and Remaini
 <br><hr><br>
 <b>3.Random password generator</b>
 <br><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The Idea of generating random password is pretty simple. But to Implement it in the form GUI is a bit complex task.Generally password are classified into weak,Strong and very strong passwords.A password can contain lowercase,uppercase ,numbers and special Characters.
+In this project 1100x400 dimensions interface is cretaed.In this interface there are some major components.They are:
+<br>
+<br><b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;i.4 Labels
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ii.1 Entry field 
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;iii.1 Button</b>
+<br><br>&emsp;&emsp;&emsp;&emsp;Entry Field takes the size of the required password.The input must be between 8 and 25 inclusive.At the first time the '<b> Refresh '</b> button is hidden.After the valid length given automatically password is generated.After generating the password The '<b> Refresh </b>' button will be available .User did not like the password generated he/her can be genearted another password by clicking the Refresh Button.
+<br><br>&emsp;&emsp;&emsp;&emsp;<b>Merits:</b>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;i.Can generate strong to very strong passwords
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ii.Flexibility in choosing password.
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;iii.Combination of lowercase,uppercase,numbers and symbols makes the project more secure.
+<br><br>&emsp;&emsp;&emsp;&emsp;<b>Demerits:</b>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;i.Can't Select the generated password.
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ii.Below average in generating long passwords.
+
+<br><br><br>
+Work done by:<br>
+<b>Hrushikesh Dodla
+
+
+
+
+
 
 
