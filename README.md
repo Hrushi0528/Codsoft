@@ -22,7 +22,14 @@ This repository contain Python code for the Tasks given by the codsoft team in t
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;This option will save the option and actions applied on the list.It only saves when you perform this action only other no changes were made.For tracking previous actions applied on list the list of actions and tracked data will store as a file in a local directory and this will be used at the Running of the program.Pickling Concept is used to save and read file.
               <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>vii.Exit:</b><br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;This option simply exit from the command line interface with a message Thankyou! .
-
+<br>&emsp;&emsp;&emsp;<b>Merits:</b>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;i.Flexibility of handling the tasks.
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ii.Can track the changes done on then tasks.
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;iii.Gives the current status of the task.
+<br><br>&emsp;&emsp;&emsp;<b>Demerits:</b>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;i.Tracking of the tasks must require a file.
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ii.Abscence of the file raises a error.
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;iii.Tracking of tasks may be corrupted by changing the file directly.
 
 <br><hr><br>
 <b>2.Rock-Paper-Scissor</b>
@@ -36,6 +43,13 @@ This repository contain Python code for the Tasks given by the codsoft team in t
 <br>&emsp;&emsp;&emsp;&emsp;The Evaluation is also mentioned below the Computer-input.Based on that either computer or user will get a point.For each point got by the user number of points will be incremented by 1 and Points earned by the user shown at top of left side.
 For each loss by the user number of chances will be decremented by 1 and Remaining chances for the user shown at top of left side.For tie either points or remaining chances will not be effected.Maximum Chances for user is 3.
 <br><br>&emsp;&emsp;&emsp;&emsp;If remaining chances is 0 then the current game is stopped and a pop up window will be displayed.Pop-up as <b> Sorry ! Your Chances are over .Do you want to play Again</b> with 2 options i.Yes ii.No.If <b>Yes</b> is clicked then the game will be refreshed and you can play a new game.If <b>No</b> is clicked then the game will be terminated as interface will destroy.
+<br><br>&emsp;&emsp;&emsp;&emsp;<b>Merits</b>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;i.GUI Interface.
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ii.Track of player score and remaining chances.
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;iii.Quite Simple.
+<br>&emsp;&emsp;&emsp;&emsp;<b>Demerits</b>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;i.Chances are limited.
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ii.Computer choses randomly without using any Algorithm.
 
 <br><hr><br>
 <b>3.Random password generator</b>
